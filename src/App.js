@@ -12,7 +12,6 @@ function App() {
   const handleClick = () => {
     //this.setState({ reverse: !reverse });
     setReverse(!reverse);
-    setCounter(counter + 1);
   };
 
   const handleIncrement = () => {
