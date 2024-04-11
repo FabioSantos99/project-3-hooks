@@ -15,7 +15,7 @@ function App() {
   };
 
   const handleIncrement = () => {
-    setCounter(counter + 1);
+    setCounter((counter) => counter + 1);
   };
 
   return (
